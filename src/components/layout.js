@@ -23,11 +23,11 @@ const Layout = ({ location, title, children }) => {
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
-      <main>{children}</main>
+      <main class="shadow rounded p-3 pmd-5">{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        <a href="https://www.gatsbyjs.com" target="blank">Gatsby</a> develope with <a href="https://gatsbyart.web.app">ART</a>
       </footer>
     </div>
   )
