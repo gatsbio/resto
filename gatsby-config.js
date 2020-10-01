@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Resto App`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Aplikasi restoran`,
+      summary: `mesin kasir restoran , aplikasi restoran,software restoran,program restoran, blog terbaru.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `mesin kasir restoran , aplikasi restoran,software restoran,program restoran, blog terbaru.`,
+    siteUrl: `https://restoapp.gtsb.io/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `hockeycomp`,
     },
   },
   plugins: [
