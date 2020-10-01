@@ -53,11 +53,11 @@ const Bio = () => {
       )}
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
-          </a>
+            Tweet
+          </a> , <a href="https://mesinkasironline.web.app">web app</a> , <a href="https://mesinkasir.github.io">github</a> , <a href="https://laravelapp.sourceforge.io">sourceforge</a>
         </p>
       )}
     </div>
